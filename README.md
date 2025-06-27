@@ -51,8 +51,8 @@ trpc-monorepo-npm/
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
-   cd trpc-monorepo-npm
+   git clone git@github.com:trpc/examples-npm-monorepo.git
+   cd examples-npm-monorepo
    ```
 
 2. **Install dependencies**
