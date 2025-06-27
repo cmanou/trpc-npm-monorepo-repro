@@ -10,7 +10,8 @@
     "build": "tsc",
     "dev:tsx": "tsx watch src/index.ts --clear-screen=false",
     "dev:tsc": "tsc --watch --noEmit --preserveWatchOutput",
-    "dev": "run-p dev:*"
+    "dev": "run-p dev:*",
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "",

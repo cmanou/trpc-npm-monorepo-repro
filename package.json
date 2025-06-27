@@ -16,7 +16,9 @@
     "dev:server": "cd packages/server && npm run dev",
     "dev:client": "cd packages/client && npm run dev",
     "dev": "run-p dev:*",
-    "start": "npm run start --workspaces --if-present"
+    "start:server": "cd packages/server && npm run start",
+    "start:client": "cd packages/client && npm run start",
+    "start": "run-p start:*"
   },
   "keywords": [],
   "author": "",
