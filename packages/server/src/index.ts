@@ -1,1 +1,1 @@
-export const whoami = () => "server"; 
+export const whoami = () => "server";

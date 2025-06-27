@@ -4,13 +4,15 @@
   "description": "",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:tsx": "tsx watch src/index.ts",
+    "dev:tsc": "tsc --watch --noEmit",
+    "dev": "run-p dev:* --print-label"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "dependencies": {
     "@acme/server": "*",
-    "@acme/tsconfig": "*"
+    "@acme/tsconfig": "*",
+    "@types/node": "^24.0.4"
   }
 }
