@@ -5,14 +5,15 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "dev:tsx": "tsx watch src/index.ts",
-    "dev:tsc": "tsc --watch --noEmit",
+    "dev:tsx": "tsx watch src/index.ts --clear-screen=false",
+    "dev:tsc": "tsc --watch --noEmit --preserveWatchOutput",
     "dev": "run-p dev:* --print-label"
   },
   "keywords": [],
   "author": "",
   "dependencies": {
     "@acme/tsconfig": "*",
+    "@trpc/server": "^11.4.3",
     "@types/node": "^24.0.4"
   }
 }
