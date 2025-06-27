@@ -4,13 +4,13 @@
   "description": "",
   "type": "module",
   "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "types": "./src/index.d.ts",
   "module": "./dist/index.js",
   "scripts": {
     "build": "tsc",
     "dev:tsx": "tsx watch src/index.ts --clear-screen=false",
     "dev:tsc": "tsc --watch --noEmit --preserveWatchOutput",
-    "dev": "run-p dev:* --print-label"
+    "dev": "run-p dev:*"
   },
   "keywords": [],
   "author": "",

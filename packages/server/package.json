@@ -2,12 +2,15 @@
   "name": "@acme/server",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./src/index.ts",
+  "module": "./dist/index.js",
   "scripts": {
     "build": "tsc",
     "dev:tsx": "tsx watch src/index.ts --clear-screen=false",
     "dev:tsc": "tsc --watch --noEmit --preserveWatchOutput",
-    "dev": "run-p dev:* --print-label"
+    "dev": "run-p dev:*"
   },
   "keywords": [],
   "author": "",
