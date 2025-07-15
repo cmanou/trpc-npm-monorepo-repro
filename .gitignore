@@ -4,3 +4,6 @@ dist
 .expo
 .DS_Store
 .cache
+*.js
+*.d.ts
+*.tsbuildinfo
