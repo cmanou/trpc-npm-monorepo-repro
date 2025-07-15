@@ -16,8 +16,7 @@
   "keywords": [],
   "author": "",
   "dependencies": {
-    "@acme/server": "*",
-    "@acme/tsconfig": "*",
+    "@acme/server": "workspace:*",
     "@trpc/client": "^11.4.3",
     "@types/node": "^24.0.4",
     "wait-port": "^1.1.0"
