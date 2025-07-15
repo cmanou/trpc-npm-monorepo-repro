@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "workspaces": [
-    "packages/*",
-    "tooling/*"
+    "packages/*"
   ],
   "engines": {
     "node": ">=24.0.0"
